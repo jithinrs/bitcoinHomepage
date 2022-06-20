@@ -18,7 +18,13 @@ body{
 }
 
 #intro-choice button:nth-child(1):hover{
-    filter: brightness(115%);
+    /*filter: brightness(115%);*/
+    background-color: #13161f;
+    border: #13161f solid 1px;
+}
+
+.section-cardsall:hover{
+    transform: scale(1.1,1.1);
 }
 
 #article-button button:hover{
@@ -113,6 +119,7 @@ body{
 #intro-choice button:nth-child(1){
     background-color: rgb(255, 149, 0);
     color: white;
+    transition-duration: 500ms;
 }
 
 #intro-video{
@@ -162,6 +169,7 @@ body{
     background-color: rgb(9, 12, 20) ;
     margin: 10px;
     text-align: center;
+    transition-duration: 200ms;
 }
 
 .section-cardsall img{
@@ -245,6 +253,7 @@ body{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    transition-duration: 300ms;
 }
 
 #footer-container{
